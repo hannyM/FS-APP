@@ -2,18 +2,23 @@
 <div class="bar bar-subheader"> <img src="img/categories-icon.png" style="width:10% ;height:30px;"/> <h3 style="width:29%;height:30px;margin-top:0px; "> Category </h3><h3 style="width:60%;height:30px; margin-top: 1px;"> {{subCategory.category.subcategory.name}} </h3>
 </div>   
 
-    
-        <div class="list" style="width:100%;height:100%; top:90px;">
-     <!--    /*background-size: cover;*/ background-image: url({{subCategory.imageURL}}) -->
-            <item type="item-text-wrap">
-            {{category}}
-            <p> Title: {{subCategory.category.subcategory.title}}</p>
-              <p> Sub Categories :  <span ng-repeat=" sublabel in label"> - {{sublabel.name}} 
-               </span> </p>
-               <span><p> Posted Date : {{subCategory.category.subcategory.date}}</p> </span>
-                 <p> Author: {{subCategory.category.subcategory.author}}</p>
-                 <p> Content: {{subCategory.category.subcategory.text}}</p>
-                <br>
-            </item>
-        </div>
-         
+<ion-item has-header="true" has-subheader="true" style="background-size: 100% 100%; width:100%;height:100%; top:90px; padding-left:10px; padding-right:10px;">
+  <div ng-hide='ShowData.message != undefined'>
+      <item ng-repeat="postDetails in ShowData" type="item-text-wrap" ng-click="selectedPost(postDetails)"">
+      
+       <h5> <p style="color:black;width: 90%;">{{postDetails.title}} </p> </h5>
+      <p style="color:black;width: 90%;">{{postDetails.text}} </p>
+      <br>
+      </div>
+  </item>
+   </div>
+   <div ng-show="ShowData.message != undefined">
+   <item>
+    <p style="color:black;width: 90%;">{{ShowData.message}} </p>
+    </item>
+    </div>
+           
+                </ion-item>
+
+  
+
