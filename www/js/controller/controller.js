@@ -1,5 +1,96 @@
 angular.module('starter.controllers', ['starter.services'])
 
+.controller('subCategoryDetails1Ctrl', function($scope, $state, $http, $ionicHistory,ServiceCategory) {
+    var selectedcategory = ServiceCategory.getUserSelectedCategory();
+    var subCategory;
+    var showCategory ={};
+    $scope.ShowData = [];
+    console.log('In selectedTrend', selectedcategory);
+
+    //$scope.subCategory =  ServiceCategory.getSubCategoryDetails('trendingCategory',selectedcategory.id)
+
+    if (selectedcategory.category.name === 'What is trending ?') {
+        ServiceCategory.getSubCategoryPostDetails().then(function (data) {
+            subCategory = data;
+            $scope.ShowData = getExactPostDetails(selectedcategory,subCategory)
+            if($scope.ShowData.length === 0){
+                 $scope.ShowData.message = "There's no post avalible for "+selectedcategory.category.subcategory.name+"Please Try other subcategory";
+            }
+        })       
+    }
+
+    function getExactPostDetails(selectedcategory,subCategory) {
+         var postDataToShow = [];
+        if(subCategory.posts.length > 0)
+        {
+            for(var i=0;i<subCategory.posts.length;i++) {
+            var actualString = subCategory.posts[i].subcategory;  
+            var searchString= selectedcategory.category.subcategory.name;
+                if(actualString.indexOf(searchString) != -1)
+                {
+                 postDataToShow.push(subCategory.posts[i]);
+                 console.log('Retrived data',selectedcategory.category.subcategory.name, subCategory.posts[i].subcategory);
+                }
+                else {
+                    console.log("Not Found");
+                }
+            }
+        }
+
+        return postDataToShow;
+    }
+
+    $scope.selectedPost = function(postDetails) {
+        ServiceCategory.setSubCategorySelectedPostDetails(postDetails);
+        $state.go('tab.dash-postDetails');
+    }
+
+    $scope.hasLabels = function(subCategory) {
+        if(subCategory.label.length > 0)
+        {
+            if(subCategory.label.name === selectedcategory.category.subCategory.label.name)
+                console.log("gfhgfh",subCategory);
+
+        }
+    }
+
+   
+   /* ServiceCategory.getSubCategoryDetails('trendingCategory',selectedcategory.id).then(function (data) {
+        $scope.subCategory = data; 
+        console.log('In subCategoryDetails1Ctrl Ctrl', $scope.subCategory  ); 
+    })*/
+   
+    // $http.get('json/trendingCategory.json').success(function(data) {
+    //     console.log(data.trendingCategory);
+    //     $scope.subCategory = data.trendingCategory[0];
+    //     if (data.trendingCategory[0].label != undefined) {
+    //         $scope.label = data.trendingCategory[0].label
+    //     }
+    // }).error(function(error) {
+    //     console.log(error);
+    // });
+    
+})
+
+.controller('subCategoryDetails2Ctrl', function($scope, $state, $http, $ionicHistory) {
+    
+
+    $http.get('json/groupCategory.json').success(function(data) {
+        console.log(data);
+        $scope.subCategory = data.groupCategory[0];
+    }).error(function(error) {
+        console.log(error);
+    });
+    console.log('In subCategoryDetails2Ctrl Ctrl');
+
+})
+
+.controller('postDetailsCtrl', function($scope, $state,ServiceCategory) {
+   var postDetails = ServiceCategory.getSubCategorySelectedPostDetails();
+   $scope.postDetails = postDetails.category.post;
+        console.log('postDetailsCtrl', $scope.postDetails);
+})
+
 .controller('SignInCtrl', function($scope, $state) {
     $scope.signIn = function(user) {
         console.log('Sign-In', user);
@@ -15,7 +106,7 @@ angular.module('starter.controllers', ['starter.services'])
 })
 
 .controller('CategoryCtrl', function($scope, $state, $http, $ionicHistory, ServiceCategory) {
-    ServiceCategory.getSubCategory('trendingCategory').then (function(data) {
+    ServiceCategory.getSubCategory('trendingCategory1').then (function(data) {
              $scope.subCategory = data;
             //  console.log($scope.subCategory);
     }); 
@@ -96,42 +187,6 @@ angular.module('starter.controllers', ['starter.services'])
     $scope.myGoBack = function() {
         $ionicHistory.goBack();
     };
-})
-
-.controller('subCategoryDetails1Ctrl', function($scope, $state, $http, $ionicHistory,ServiceCategory) {
-  //  console.log('In subCategoryDetails1Ctrl Ctrl');
-
-    var selectedcategory = ServiceCategory.getUserSelectedCategory();
-    console.log('In selectedTrend', selectedcategory);
-    $scope.subCategory =  ServiceCategory.getSubCategoryDetails('trendingCategory',selectedcategory.id)
-   /* ServiceCategory.getSubCategoryDetails('trendingCategory',selectedcategory.id).then(function (data) {
-        $scope.subCategory = data; 
-        console.log('In subCategoryDetails1Ctrl Ctrl', $scope.subCategory  ); 
-    })*/
-   
-    // $http.get('json/trendingCategory.json').success(function(data) {
-    //     console.log(data.trendingCategory);
-    //     $scope.subCategory = data.trendingCategory[0];
-    //     if (data.trendingCategory[0].label != undefined) {
-    //         $scope.label = data.trendingCategory[0].label
-    //     }
-    // }).error(function(error) {
-    //     console.log(error);
-    // });
-    
-})
-
-.controller('subCategoryDetails2Ctrl', function($scope, $state, $http, $ionicHistory) {
-    
-
-    $http.get('json/groupCategory.json').success(function(data) {
-        console.log(data);
-        $scope.subCategory = data.groupCategory[0];
-    }).error(function(error) {
-        console.log(error);
-    });
-    console.log('In subCategoryDetails2Ctrl Ctrl');
-
 })
 
 .controller('DashboardCtrl', function($scope, $http, $state, ServiceCategory,$q) {
