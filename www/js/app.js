@@ -86,6 +86,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
             }
         }
     })
+     .state('tab.dash-postDetails', {
+        url: '/tab.dash-postDetails',
+        views: {
+        'tab-dash':{
+        templateUrl: 'newTemplate/selectedPostDetails.html',
+        controller: 'postDetailsCtrl'
+        }
+        }
+    })
 
     .state('tab.dash-subCategoryDetails1', {
         url: '/tab.dash-subCategoryDetails1',
