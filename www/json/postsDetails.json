@@ -1,0 +1,271 @@
+{
+	"name": "What is trending ?",
+    "imageURL": "img/trending.jpg",
+  	"posts": [
+    {
+      "id": 1,
+      "title": "Fintechs’ Action",
+      "subcategory": "Fintech, Blockchain ",
+      "label": [
+        {
+          "id": 1,
+          "name": "Fintech"
+        },
+        {
+          "id": 2,
+          "name": "Blockchain"
+        }
+      ],
+      "date": "26 February 2016",
+      "author": "Sudhir Pai",
+      "text": "Fintechs’ action is everywhere and both banks (e.g. Emirates NBD news today) and SI firms (e.g. Accenture) playing ‘Orchestrator’s role providing ‘platforms’ for Fintech firms to experiment their products / ideas and take it to the next level.  Should we think in similar lines and build an ecosystem of start-ups /fintech’s around us connecting with our clients? How can we expand AIE concepts to specific domain areas?<ul><li>Barclays building 43 Blockchain apps in Innovation labs</li><li>DBS providing 5000 sq. ft. of co-working space</li><li>ANZ CEO’s vision to be a disruptor, asking Fintech’s to contact directly</li></ul>"
+    },
+    {
+      "id": 2,
+      "title": "Connected Insurance",
+      "subcategory": "IoT, Insurance ",
+      "label": [
+        {
+          "id": 1,
+          "name": "IoT"
+        },
+        {
+          "id": 2,
+          "name": "Insurance"
+        }
+      ],
+      "name": "Fintech, Blockchain",
+      "date": "26 February 2016",
+      "author": "Sudhir Pai",
+      "text": "‘Connected Insurance’ is becoming popular embracing infinite possibilities through IoT. If we map it to our Digital /MIT framework, we can see its applicability in all three areas - customer experience (new devices, mHealth apps), Operational efficiencies (shorter claims cycles) and new products / services (“Pay as you Drive”?).  How do we position ourselves with firms like ROC-Connect providing cloud based IoT platform for Insurers?"
+    },
+    {
+      "id": 3,
+      "subcategory": "Fintech, Competitors ",
+      "date": "26 February 2016",
+      "author": "Sudhir Pai",
+      "title": "Accenture and Fintech",
+      "label": [
+        {
+          "id": 1,
+          "name": "Fintech"
+        },
+        {
+          "id": 2,
+          "name": "Competitors"
+        }
+      ],
+      "text": "Is it worth noting Accenture’s investment in Vlocity to build vertical solutions on Salesforce platform or its investments in building Fintech Innovation Centres across globe? (till date 59 start-ups, $200 worth funding raised and 29 FS institutions have participated)"
+    },
+    {
+      "id": 4,
+      "subcategory": "Blockchain",
+      "date": "4 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Blockchain",
+      "label": [
+        {
+          "id": 1,
+          "name": "Blockchain"
+        }
+      ],
+      "text": "We keep hearing about this technology and very quickly Banks are seriously attempting to understand its implications. Today we hear in the news that the R3-led blockchain consortium of the world’s biggest banks has completed their second known proof of concept experiment of blockchain technology with trials spanning five different blockchain solutions. Forty of the world’s biggest banks that are partners in the private blockchain consortium led by New York-based blockchain-tech startup R3 have tested distributed ledger systems from five blockchain vendors as well as three cloud providers. Keen to add this as a priority into our plan to explore this technology further and understand specifics of POCs being attempted by our clients."
+    },
+    {
+      "id": 5,
+      "subcategory": "Client Relationship",
+      "date": "4 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Nina4airbnb",
+      "label": [
+        {
+          "id": 1,
+          "name": "Client Relationship"
+        }
+      ],
+      "text": "You might have heard about this a while ago, but thought of sharing it.  Resume of Nina for a job at airbnb. A best example of showing client intimacy and passion. This is how she caught CEO’s attention http://www.nina4airbnb.com/"
+    },
+    {
+      "id": 6,
+      "subcategory": "Competitors, Digital",
+      "date": "4 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Social Listening",
+      "label": [
+        {
+          "id": 1,
+          "name": "Competitors"
+        },
+        {
+          "id": 2,
+          "name": "Digital"
+        }
+      ],
+      "text": "Playing on social media analytics, if I apply same query on both Capgemini and Accenture, filtered by same keywords Digital, Cloud, Disruption and Innovation….we see the following charts. Interesting to see Accenture brand appearing smaller than Digital brand for them and its reverse for Capgemini."
+    },
+    {
+      "id": 7,
+      "subcategory": "Ecosystems ",
+      "date": "11 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Ecosystems",
+      "label": [
+        {
+          "id": 1,
+          "name": "Ecosystems"
+        }
+      ],
+      "text": "Ecosystems: Most commonly used term in the recent times. Undoubtedly there is a realisation that in the new world we need to build ecosystems. But how? …Few options to consider: a. Industry ecosystems – where a trend is embraced by various industry partnerships e.g. Home Energy Management ecosystems are being formed which will have energy companies, telcos, Insurance providers and SI partners. I would refer to it as ‘non-traditional FS’ partnerships  b. Solution partners ecosystem:  i.      Traditional partners with disruptive solutions e.g. IBM BlueMix ii.      Born in the cloud partner ecosystems e.g. Salesforce and AppXchange product partners  iii.      Start-ups (Fintechs)   iv.      Combination of the above  Challenge for us is to figure out how we build new ecosystems that will generate profitable business at the same time does not dilute our own value propositions. Over time we shall build (or identify) integrated solutions with these ecosystem of partners, whereby ‘collectively’ we have better offerings. Additional challenge is to look at alliance management function, it might be based on integrated solutions or a domain area than just individual product partnerships?"
+    },
+    {
+      "id": 8,
+      "subcategory": "Bi-model IT, Agile",
+      "date": "11 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Bi-model IT",
+      "label": [
+        {
+          "id": 1,
+          "name": "Bi-model IT"
+        },
+        {
+          "id": 2,
+          "name": "Agile"
+        }
+      ],
+      "text": "Bi-model IT:  Everyone (clients) understands the concept of “two speed IT”, but most of them are struggling to make it work.  This is an area where I see a good opportunity for SI’s like us. An integral part of Digital transformation is to make end to end IT landscape work and not just the front end or new technology solution. This means we would need Bi-Model IT operating model, support model, SLAs, APIs, services architecture and delivery methods (Agile+legacy) to work.  Will further explore with the teams on what we already have in this space to build on…."
+    },
+    {
+      "id": 9,
+      "subcategory": "Universities",
+      "date": "20 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Role of Universities/Schools in our business",
+      "label": [
+        {
+          "id": 1,
+          "name": "Universities"
+        }
+      ],
+      "text": "Role of Universities/Schools in our business:  “What can you tell us which we don’t know already”, common question we face from our clients (especially tier-1).  We look out for the moments where we can ‘wow’ them. In reality it’s becoming difficult. Given public access to information and many a times we feel clients are ahead or at least pretend to be ahead in the game.  One of the channels to explore is “Universities”. I have seen a huge shift in Universities in researching and developing some of the most advanced topics. In the past our interactions were mostly limited to hiring or a specific joint research…Is there anything more we can do, primarily from a Financial Services standpoint? A few thoughts:  a.       Sharing research topics of interests  b.      Participating in advisory boards and co-located trainings  c.       Partnerships on POCs, POVs  d.      Resource sharing and talent acquisition, through brand building. E.g. guest lectures etc.   e.      Inviting them in our key clients, advisors and internal events I would use CTO community to sign up to key advisory boards and look out for a network of Universities and research institutes to help us drive this future thinking? Another trend associated to Universities is closely working with senior schools and under grads. I would recall a presentation from high school principal and students in our lab who demonstrated some fascinating prototypes developed by students. Potential for us to learn from Gen Y on a regular basis?"
+    },
+    {
+      "id": 10,
+      "subcategory": "Fintech",
+      "date": "20 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Regulators",
+      "label": [
+        {
+          "id": 1,
+          "name": "Fintech"
+        }
+      ],
+      "text": "There is increasing pressure on our clients to ‘partner’ with regulators than seeing them as obstacles in the Fintech world and in the interest of consumers.  We should have a mechanism to understand regulations at all levels on an ongoing basis and host / facilitate forums to bring in clients and Fintechs to interact with regulators.  This might be geo specific but gives us an upper hand to have meaningful conversation on this subject in the areas of data privacy, cloud and at least understand challenges and how regulators are preparing for the future.  Particularly deep dive conversation on data security and privacy when we discuss cloud, APIs and CRM areas."
+    },
+    {
+      "id": 11,
+      "subcategory": "Social Media,Brand",
+      "date": "26 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Social media ‘influencers’",
+      "label": [
+        {
+          "id": 1,
+          "name": "Social Media"
+        },
+        {
+          "id": 2,
+          "name": "Brand"
+        }
+      ],
+      "text": "Social media ‘influencers’:  We are commonly used to advisors and analysts in our business but going forward there might be a need engage social media influencers more actively. We need to look into themes and identify individuals who are well known in social media (blogs, Instagram, twitter, Face book etc. based on parameters like Klout score) and engage them. With digital marketing spend taking a major share of most of client’s organisations, our social brand might be as equally important as our solution and value propositions….particularly if we need to build relationships with Fintech’s?"
+    },
+    {
+      "id": 12,
+      "subcategory": " IoT, Cloud ",
+      "date": "26 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Is Fog computing the future of cloud?",
+      "label": [
+        {
+          "id": 1,
+          "name": "IoT"
+        },
+        {
+          "id": 2,
+          "name": "Cloud"
+        }
+      ],
+      "text": "As the future of sensors and IoT dominates, organisations like CISCO and solidifying on ‘Fog and Edge’ computing concepts. Cloud as it stands today might not be sufficient as the storage and compute needs to be near the sensors or edge. E.g. Driverless car can create massive amounts of data that need not be stored. Similarly in financial services a regulatory breech can be caught more quickly when analysis occur at source?"
+    },
+    {
+      "id": 13,
+      "subcategory": " Other industries ",
+      "date": "26 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Influence from other industries",
+      "label": [
+        {
+          "id": 1,
+          "name": "Other industries "
+        }
+      ],
+      "text": "Just wondering if there is a need for us to understand top 2-3 trends from other industries to have closer influence on Financial Services clients. E.g. Retail for customer experience and loyalty? Other ways to look into is impact to our business from other industry trends e.g. Telco’s investment in Healthcare, Energy companies investments in smart home."
+    },
+    {
+      "id": 14,
+      "subcategory": "AI, Natural Languages",
+      "date": "17 June 2016",
+      "author": "Sudhir Pai",
+      "title": "SIRI",
+      "label": [
+        {
+          "id": 1,
+          "name": "AI"
+        },
+        {
+          "id": 2,
+          "name": "Natural Languages"
+        }
+      ],
+      "text": "Apples announced iOS10 at WWDC and as expected enhancements to ‘SIRI’ seems to be key, including opening up Siri for third party developers. General comments from the market is it lacks AI capabilities and Apple is still catching up. Looks like it’s time to have a POV on Natural Language Processing (NLP) interfaces."
+    },
+    {
+      "id": 15,
+      "subcategory": "Disruption",
+      "date": "17 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Disruption",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption"
+        }
+      ],
+      "text": "When we talk about disruptive business models, we refer to ‘Uber’, but not to forget OLA in India and Didi in China have gained significant market share and managed to raise billions of $ in competing with Uber as local favourites."
+    },
+    {
+      "id": 16,
+      "subcategory": "Digital, RPA, New buzz words",
+      "date": "17 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Digital Delivery Platform",
+      "label": [
+        {
+          "id": 1,
+          "name": "Digital"
+        },
+        {
+          "id": 2,
+          "name": "RPA"
+        },
+        {
+          "id": 3,
+          "name": "New buzz words"
+        }
+      ],
+      "text": "A week before we spoke about “Platforms” a term quite often carries different meaning for different people. It was amazing to see readiness of our own “Digital Delivery Platform”, which we have been referring as ADC’s (time to find a new name!). Ashish and team did a walkthrough of how ADC’s can provide a jump-start for digital programs with ready to use pre-built set of tools and technologies. Key differentiator is that the ADC will bring in people dimension and not just technology, so we have day-1 productivity assured. Something we should expand to existing ODCs, and at key onsite locations. Thanks Pitchai for the workshop on both RPA and ADCs."
+    }
+  ]
+}
