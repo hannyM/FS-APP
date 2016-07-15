@@ -6,6 +6,13 @@ angular.module('starter.services', [])
     var categoriesPostDetailsData;
     var userSelectedData = {};
 
+    var headers = {
+                'Access-Control-Allow-Origin' : '*',
+                'Access-Control-Allow-Methods' : 'POST, GET, OPTIONS, PUT',
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            };
+
     function getCategory() {
         var d = $q.defer();
         $http.get('../../json/category.json').success(function(data) {
@@ -113,6 +120,25 @@ angular.module('starter.services', [])
         return d.promise;
     }
 
+    function publishPost() {
+        var d = $q.defer();
+
+        $http({
+                method: "GET",
+                headers: headers,
+          url: 'http://localhost:3000/category/publish'
+        }).success(function(data) {
+            //categoriesPostDetailsData = data;
+            console.log("categoriesPostDetailsData",data);
+            d.resolve(data);
+        }).error(function(error) {
+            console.log(error);
+            d.resolve(error);
+        });
+
+        return d.promise;
+    }
+
     return {
         getCategory: getCategory,
         getSubCategory: getSubCategory,
@@ -124,11 +150,11 @@ angular.module('starter.services', [])
         getSubCategorySelectedPostDetails: getSubCategorySelectedPostDetails,
         setSubCategorySelectedPostDetails: setSubCategorySelectedPostDetails,
         
-        getSubCategoryPostDetails: getSubCategoryPostDetails
+        getSubCategoryPostDetails: getSubCategoryPostDetails,
+
+        publishPost:publishPost
     }
 })
-
-
 .factory('Chats', function() {
     // Might use a resource here that returns a JSON array
 
@@ -175,5 +201,56 @@ angular.module('starter.services', [])
             }
             return null;
         }
+    };
+})
+
+.factory('Notifications', function() {
+    // Might use a resource here that returns a JSON array
+
+    // Some fake testing data
+    var notifications = [{
+        id: 0,
+        name: 'Sudhir Pai',
+        lastText: 'Melbourne, Australia',
+        face: 'img/adam.png'
+    }, {
+        id: 1,
+        name: 'Willem Veelenturf',
+        lastText: 'Utrecht, Netherlands',
+        face: 'img/ben.png'
+    }, {
+        id: 2,
+        name: 'Bahar Khodabakhshi',
+        lastText: 'Melbourne, Australia',
+        face: 'img/max.png'
+    }];
+
+    return {
+        all: function() {
+            return notifications;
+        }
+    };
+})
+
+.factory('Details', function() {
+    // Might use a resource here that returns a JSON array
+
+    // Some fake testing data
+    var userDetails =  {
+        id : 0,
+        fullName : 'Sudhir Pai',
+        lastName : 'Pai',
+        firstName :' Sudhir',
+        profilePic : 'img/adam.png',
+        location: 'Melbourne, Australia'
+    };
+
+    function getUser() {
+        console.log(userDetails)
+        return userDetails;
+    }
+
+    return {
+        getUser: getUser
     };
 });
