@@ -1,0 +1,17 @@
+<ion-view view-title="CTO blog – FS">
+  <ion-content>
+    <ion-list>
+    <ion-toggle ng-model="settings.enableFriends">
+        Notifications
+    </ion-toggle>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+ <ion-item has-header="true" has-subheader="true" style="background-size: 100% 100%; width:100%;height:100%; top:90px;padding-left:10px; padding-right:10px;">
+             <ion-item ng-repeat="data in notificationDetails">
+                     <img ng-src="{{data.face}}">   <h2>{{data.name}}</h2>         <p>{{data.lastText}}</p> 
+                    </ion-item>
+           
+                </ion-item>
+
