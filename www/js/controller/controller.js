@@ -52,24 +52,7 @@ angular.module('starter.controllers', ['starter.services'])
                 console.log("gfhgfh",subCategory);
 
         }
-    }
-
-   
-   /* ServiceCategory.getSubCategoryDetails('trendingCategory',selectedcategory.id).then(function (data) {
-        $scope.subCategory = data; 
-        console.log('In subCategoryDetails1Ctrl Ctrl', $scope.subCategory  ); 
-    })*/
-   
-    // $http.get('json/trendingCategory.json').success(function(data) {
-    //     console.log(data.trendingCategory);
-    //     $scope.subCategory = data.trendingCategory[0];
-    //     if (data.trendingCategory[0].label != undefined) {
-    //         $scope.label = data.trendingCategory[0].label
-    //     }
-    // }).error(function(error) {
-    //     console.log(error);
-    // });
-    
+    }    
 })
 
 .controller('subCategoryDetails2Ctrl', function($scope, $state, $http, $ionicHistory) {
@@ -199,15 +182,7 @@ angular.module('starter.controllers', ['starter.services'])
              $scope.categories =data;
               console.log($scope.categories);
     }); 
-           
-    //   $scope.isGroupShown = function(group) {
-    //   return $scope.shownGroup === group;
-    // }
-
-    // $scope.isSubGroupShown = function(item) {
-    //   return $scope.shownChild === item;
-    // }
-
+        
     $scope.selectCategory = function(categories) {
         if (categories.name == "What is trending ?") {
             ServiceCategory.setUserSelectedCategory(categories);
@@ -226,7 +201,6 @@ angular.module('starter.controllers', ['starter.services'])
            $state.go('tab.dash-subCategoryCommunity');
         }
     };
-
 })
 
 .controller('LogoutCtrl', function($scope, $state, $location) {
@@ -240,7 +214,6 @@ angular.module('starter.controllers', ['starter.services'])
             $scope.settings.enableFriends = true;
 
     };
-
 })
 
 .controller('ProfileCtrl', function($scope) {
@@ -255,8 +228,15 @@ angular.module('starter.controllers', ['starter.services'])
     };
 })
 
+.controller('ChatsCtrl', function($scope, Chats) {
+   $scope.chats = Chats.all();
+   $scope.remove = function(chat) {
+    Chats.remove(chat);
+  };
+})
+
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
-    $scope.chat = Chats.get($stateParams.chatId);
+  $scope.chat = Chats.get($stateParams.chatId);
 })
 
 .controller('AccountCtrl', function($scope) {
