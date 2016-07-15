@@ -22,7 +22,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     });
 })
 
-.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider,$httpProvider) {
+
     $ionicConfigProvider.tabs.position('bottom');
     // Ionic uses AngularUI Router which uses the concept of states
     // Learn more here: https://github.com/angular-ui/ui-router
@@ -200,7 +201,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         url: '/notifications',
         views: {
             'tab-notifications': {
-                templateUrl: 'templates/tab-notifications.html',
+                templateUrl: 'newTemplate/Notification/notificationInDetails.html',
                 controller: 'NotificationsCtrl'
             }
         }
@@ -218,4 +219,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/sign-in');
+   
+    $httpProvider.defaults.useXDomain = true;
+    $httpProvider.defaults.headers.common = 'Content-Type: application/json';
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+
+
 });
