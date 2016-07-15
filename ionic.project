@@ -1,4 +1,10 @@
 {
   "name": "CTO blog – FS",
-  "app_id": "bb22eab4"
+  "app_id": "bb22eab4",
+   "proxies": [
+    {
+      "path": "/category/publish",
+      "proxyUrl": "http://localhost:3000" 
+    }
+  ]
 }
