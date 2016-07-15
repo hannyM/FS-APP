@@ -7,3 +7,29 @@
     </ion-list>
   </ion-content>
 </ion-view>
+
+ <ion-item has-header="true" has-subheader="true" style="background-size: 100% 100%; width:100%;height:100%; top:90px;padding-left:10px; padding-right:10px;">
+             
+                      <label class="item item-input" style="padding:7px"> 
+                 			  <img ng-src="{{getUser.profilePic}}">  
+    </label>   
+          
+                  <label class="item item-input" style="padding:7px"> Firstname : 
+                 			{{getUser.firstName}}
+    </label>
+    <br>
+     <label class="item item-input" style="padding:7px"> FullName : 
+                 			{{getUser.fullName}}
+    </label>
+    <br>
+     <label class="item item-input" style="padding:5px"> Location : 
+                 			{{getUser.location}}
+    </label>
+    <br>
+
+    <div class="row">  <div class="col text-right">
+                    <button class="button button-positive" >
+                      Update
+                    </button>
+
+                </ion-item>
