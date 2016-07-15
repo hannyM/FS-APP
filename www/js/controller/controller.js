@@ -65,7 +65,6 @@ angular.module('starter.controllers', ['starter.services'])
         console.log(error);
     });
     console.log('In subCategoryDetails2Ctrl Ctrl');
-
 })
 
 .controller('postDetailsCtrl', function($scope, $state,ServiceCategory) {
@@ -86,6 +85,13 @@ angular.module('starter.controllers', ['starter.services'])
              $scope.categories = data;
             //  console.log($scope.subCategory);
     }); 
+
+    $scope.publish = function() {
+      
+        ServiceCategory.publishPost().then(function(data){
+            console.log(data);
+        })
+    }
 })
 
 .controller('CategoryCtrl', function($scope, $state, $http, $ionicHistory, ServiceCategory) {
@@ -216,16 +222,24 @@ angular.module('starter.controllers', ['starter.services'])
     };
 })
 
-.controller('ProfileCtrl', function($scope) {
+.controller('ProfileCtrl', function($scope,Details) {
     $scope.settings = {
         enableFriends: true
     };
+    
+    $scope.getUser = Details.getUser();
+    //console.log('ProfileCtrl', $scope.getUsers);
+
 })
 
-.controller('NotificationsCtrl', function($scope) {
+.controller('NotificationsCtrl', function($scope,Notifications) {
     $scope.settings = {
         enableFriends: true
     };
+
+    $scope.notificationDetails = Notifications.all();
+    //console.log('NotificationsCtrl',$scope.notificationDetails);
+
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
