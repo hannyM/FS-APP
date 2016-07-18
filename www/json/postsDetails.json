@@ -1,7 +1,7 @@
 {
-	"name": "What is trending ?",
-    "imageURL": "img/trending.jpg",
-  	"posts": [
+  "name": "What is trending ?",
+  "imageURL": "img/trending.jpg",
+  "posts": [
     {
       "id": 1,
       "title": "Fintechs’ Action",
@@ -215,6 +215,410 @@
     },
     {
       "id": 14,
+      "subcategory": "Disruption,Partnerships",
+      "date": "26 March 2016",
+      "author": "Sudhir Pai",
+      "title": "Partnerships between banks",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption"
+        },
+        {
+          "id": 2,
+          "name": "Partnerships"
+        }
+      ],
+      "text": "Got a chance to meet up with Commonwealth Bank to see next wave of innovation. Representatives from RBS and RBC are in CBA to look at Digital Innovation……Is this the future where we start to see unusual partnerships to face disruption? Next week more to learn from another innovative bank ING…"
+    },
+    {
+      "id": 15,
+      "subcategory": " Apps,Mobility",
+      "date": "1 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Future of APPS",
+      "label": [
+        {
+          "id": 1,
+          "name": "Apps"
+        },
+        {
+          "id": 2,
+          "name": "Mobility"
+        }
+      ],
+      "text": "It’s predicted that the ever growing world of Apps is likely to come down over time with rise of ‘intelligent BOTS’ and new channels of user interfaces like voice.  Interesting to note that average number of Apps used per person per month is steady around 26 since last 3 years. Our recent studies on KORE and similar products and interests from our clients validates the same.  In addition, as Satya Nadella says “Human language” is the new interface. Amazon Echo (Alexa) is a good example of what voice based interface can do (e.g. CapitalOne POC)   It’s worth looking at clients and partnerships where we can have focussed conversation and POV on “world of new user interfaces”, and potentially strengthen our Omnichannel architecture."
+    },
+    {
+      "id": 16,
+      "subcategory": "Disruption ",
+      "date": "1 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Tech Savvy client executives",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption "
+        }
+      ],
+      "text": "ING’s CXO session, CBA executive profiles and many more to count….it’s evident that senior executives of financial services organisations are becoming quite hands on when it comes to technology conversations. Many of them are capable of speaking at a granular (Java class, API, protocol) levels and like to interact with software engineers directly. Financial services organisations realises that technology is driving disruption, innovation and new business models and to compete or collaborate with Fintechs and large technology players it’s important not just having an awareness but also deep insights.  Whilst 2015 results shows only 6% of overall board members of financial services organisations are tech savvy (in the US it was 16%), overall its growing at a rapid pace. Does this mean more software engineers presenting our proposals to CXOs in future? Does this mean we should train a set of talented engineers the soft skills required to play these roles?"
+    },
+    {
+      "id": 17,
+      "subcategory": "Apps,Disruption,Digital",
+      "date": "9 April 2016",
+      "author": "Sudhir Pai",
+      "title": "ADM business",
+      "label": [
+        {
+          "id": 1,
+          "name": "Apps"
+        },
+        {
+          "id": 2,
+          "name": "Disruption"
+        },
+        {
+          "id": 3,
+          "name": "Digital"
+        }
+      ],
+      "text": "Significant shift and changes are expected to continue in Applications Development and Maintenance business. New ADM portfolios should be looked in conjunction with latest, disruptive technologies, speed and agility of Digital transformation.  Future of applications are designed for Digital, hosted on cloud, tightly coupled with data all intended to drive end customer experience.   Whilst any software that runs in production needs to be Maintained, increased number of releases, services based architecture, DevOps techniques will challenge the ways in which maintenance contracts will have to be negotiated…Organisations having existing multi-year contracts are looking into:• Portfolio mix overtime, movements to Digital and its impact • Current governance setup, particularly situations where we have separate Dev and Maintenance vendors• Proactively involved in cloud migration, customer experience projects to safeguard future revenue.  Situation is favourable for us to challenge the value of existing maintenance contracts run by our competitors…..To be consistent with messaging around ADM trends, we have mapped top-5 trends to our own TechnoVision blocks, along with on tools, impacts and examples. Attaching the same herewith."
+    },
+    {
+      "id": 18,
+      "subcategory": "Disruption",
+      "date": "9 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Omnichannel",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption"
+        }
+      ],
+      "text": "Inspiring video of ING’s recent 24 hour Hackathon in Netherlands 400 Participants and 61 ideas to build the Omnichannel bank of the future….our teams participated as well https://www.youtube.com/watch?v=29Y_POE8tuw Our clients in financial services are continuing to invest and organise these events and thereby bringing innovation to life and motivating / attracting talent…"
+    },
+    {
+      "id": 19,
+      "subcategory": "Social Media",
+      "date": "9 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Social Media",
+      "label": [
+        {
+          "id": 1,
+          "name": "Social Media"
+        }
+      ],
+      "text": "Organisations continue to support and encourage participation through social media. See the attached letter of recognition from Tata’s….not sure if it makes sense to print a signed letter for supporting social media, but good concept to encourage participation"
+    },
+    {
+      "id": 20,
+      "subcategory": "Digital,Disruption ",
+      "date": "17 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Digital Transformation for Employees",
+      "label": [
+        {
+          "id": 1,
+          "name": "Digital"
+        },
+        {
+          "id": 2,
+          "name": "Disruption"
+        }
+      ],
+      "text": "Employee Engagement in the Digital world: With our clients focusing on “outside in” and “customer centricity,” it’s imperative not to downplay the engagement and empowerment of employees. Research shows successful organisations are the ones who have given equal importance to customer and employee transformation.  I was surprised to see case studies that was presented in APAC meet relating to employee engagements and collaboration in the Digital World. Is there a bigger market for Digital transformation for employees that works on KPIs around attracting and retaining talent? Accenture’s paper on workforce of the future provides some good insights on this topic as well….A few points to consider a.       A new portfolio of solutions on Human Capital Management? Or ability to build Digital platform around them  b.      Providing services to clients on Gamification (e.g. Claims process in insurance), new generation training through VRs, recognitions based on Coins? (I do recall banks now providing social media training like using Linkedin etc. to all client facing staff, as part of induction)"
+    },
+    {
+      "id": 21,
+      "subcategory": "AI",
+      "date": "17 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Microsoft and Artificial Intelligent",
+      "label": [
+        {
+          "id": 1,
+          "name": "AI"
+        }
+      ],
+      "text": "Continuing the series on interesting video clips, thought of sharing the one below: • Microsoft entering into AI and Cognitive space https://www.youtube.com/watch?v=R2mC-NUAmMk  (SFDC now calls out Microsoft as their biggest competitor!)"
+    },
+    {
+      "id": 22,
+      "subcategory": "Blockchain",
+      "date": "17 April 2016",
+      "author": "Sudhir Pai",
+      "title": "AirBnB and Blockchain",
+      "label": [
+        {
+          "id": 1,
+          "name": "Blockchain"
+        }
+      ],
+      "text": "It’s heard that AirBnB is now hiring blockchain specialists to build identity management solution, this is in line with our discussions and thinking around potential SI play for identity management solutions on block chain.  http://www.americanbanker.com/news/bank-technology/airbnb-hires-a-blockchain-team-in-possible-identity-play-1080440-1.html"
+    },
+    {
+      "id": 23,
+      "subcategory": "Fintech ",
+      "date": "22 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Fintech pitch night in Australia",
+      "label": [
+        {
+          "id": 1,
+          "name": "Fintech"
+        }
+      ],
+      "text": "Thought of dedicating this week to Fintechs!!!!     We had an amazing Fintech pitch night in Australia. We had five interesting Fintech’s selected based on our business priorities  • Airwallex – Cross border payments• Proviso - Real time bank statements, and the winner!!! Of pitch night. • TruePillars – online marketplace for business and investors• Dragonbill – real time next generation payment platform• SmartBit – Bitcoin-blockchain explorer and smart paymentCTO community is happy to support similar pitch nights in other geographies. We should do it by H1.  It’s a good example of building ecosystem where we have regulator, Bank, fintech, consulting firms coming together.  A few extracts from the event:  Insights from Capgemini: Andrew Lai, Founder – Fintech Melbourne and FinancialAsk, took the stage to introduce Capgemini’s Manoj Khera, Head – FS, Australia and New Zealand. Manoj went on to deliver the keynote, where he spoke about new business models, new products and services in the start-up and financial industry. Discussing Innovation and Regulatory Compliance The event kicked off with an expert panel discussion featuring insights from Deborah Ralston from ASIC, Ben Heap from H2 Ventures, Todd Reichmann from NAB Labs and Capgemini’s Fs CTO, Sudhir Pai. The panel discussed the Australian Government's newly announced 'regulatory sandbox', aimed at reducing the time fintech start-ups spend navigating complex industry regulations and providing a sandbox to test new ideas.  The Social Circuit No one anticipated that we would have the #2 trending hashtag in Australia that night! With over 600,000 reached through the event tweets, you can get all the event details. Just search for @fintechmelb, @capgemini_aust and #cgfintech. "
+    },
+    {
+      "id": 24,
+      "subcategory": " Cloud",
+      "date": "29 April 2016",
+      "author": "Sudhir Pai",
+      "title": "AWS’s Cloud Adoption Framework",
+      "label": [
+        {
+          "id": 1,
+          "name": " Cloud"
+        }
+      ],
+      "text": "Got a chance to deep dive into AWS’s Cloud Adoption Framework. In a way it appears AWS is executing our work in helping clients to increase the rate of cloud migration, ensuring ROI of cloud migration and support managed services.  The framework covers business perspective, Operations, Process, Security, People etc. and have methods like “lift and shift”, “Build it and they will come” etc. We have seen similar consulting engagements from others like Salesforce running IGNITE process. It appears that technology firms are overlapping into structured consulting space (than just professional services) and it will only increase with large ecosystem of niche, small partners that they are building.  Another interesting observation from AWS event is their top-5 engagements in the region are supported by companies we haven’t heard of e.g. Sourced, ITOC etc.  This is impacting awards as well. E.g. ITOC was “Customer Obsessed Partner of the year globally” More start-ups are coming in ‘Cloud and DevOps’ space, is it worth looking at stronger alignment, preferably acquisitions?"
+    },
+    {
+      "id": 25,
+      "subcategory": "AI",
+      "date": "29 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Infosys and Artificial Intelligent",
+      "label": [
+        {
+          "id": 1,
+          "name": "AI"
+        }
+      ],
+      "text": "Time for our own Robotics & AI platform? – Infosys today launched ‘Mana”, an AI platform designed to help customers automate repetitive system maintenance tasks and build knowledge about the underlying systems using artificial intelligence and machine learning. Accenture announced partnership with Splunk to build ‘intelligent automation systems’. We already have a number of initiatives in this area, POV papers, tools UI path partnerships etc. (including BPO)…worth collectively launching a platform something in the lines of ”roboCap”, Capgemini’s robotics and AI platform? A combination of machine learning with robotics automation can be a differentiator and applicable to most of our ADM, infra and testing work."
+    },
+    {
+      "id": 26,
+      "subcategory": "Agile",
+      "date": "29 April 2016",
+      "author": "Sudhir Pai",
+      "title": "ING and Agile",
+      "label": [
+        {
+          "id": 1,
+          "name": "Agile "
+        }
+      ],
+      "text": "A good video clip providing details of Spotify Agile method used in ING https://www.youtube.com/watch?v=NcB0ZKWAPA0 "
+    },
+    {
+      "id": 27,
+      "subcategory": "Blockchain,AI,IoT,APIs,Natural Languages ",
+      "date": "29 April 2016",
+      "author": "Sudhir Pai",
+      "title": "Convergence and hybridization",
+      "label": [
+        {
+          "id": 1,
+          "name": "Blockchain "
+        },
+        {
+          "id": 2,
+          "name": "AI "
+        },
+        {
+          "id": 3,
+          "name": "IoT "
+        },
+        {
+          "id": 4,
+          "name": "APIs "
+        },
+        {
+          "id": 5,
+          "name": "Natural Languages  "
+        }
+      ],
+      "text": "I am convinced that we cannot look at Blockchain, API, Fintechs, Bots and other presentations in isolation as World is likely to move to ‘Convergence’ and ‘hybridization’ quickly.   As we support on premise and cloud environments today, we might support centralized and decentralized business (Blockchain) parts for our clients in near future. If I try to sum up various presentations and focus areas, here is how applying for a loan might look like in future….. 1.       Me: Hi Kora (or Cap bot) I am buying a new home can you please check with mortgage options? a.       Supported by our Digital /BPM practice, runs enterprise BPM process for origination that we recently moved to cloud and supporting on PaaS model 2.       Kora: Hey I have explored all options and based on analysis of your personal data, preferences and what happened last time, I am suggesting you go for crowdfunding through a FintechX a.       Data and Analytics practice, AI platform that we recently built for a bank b.       APIs available to connect FintechX with Bots and enterprise back-ends through API practice 3.       Me: Thanks Kora, do you need anything from my side like ID documents etc.? 4.       Kora: No we have your ID registered  in blockchainX, will use it.  a.       Our blockchain practice supports IDM process 5.       Kora:  By the way you can use ‘MoveBots’ to help re logistics! And pay directly using either Bitcoins or Dollars a.       Our partnership with logistics firms and FintechY, through cross sector collaboration 6.       Me:  Great, with the projected repayments, do I have provision for a holiday this year? 7.       Kora: Yes off course, list shows your preference is Disney land? Shall I explore? DisneyBot can help with Wearables that are programmed for you and family to stay, and game /rides. 8.       Me: That’s great! 9.       …. Convergence of Internet of Things (IoT) Internet of Money (Cryptocurrency) and Internet of Value (exchanges), will be an interesting space to watch …."
+    },
+    {
+      "id": 28,
+      "subcategory": "Cybersecurity",
+      "date": "14 May 2016",
+      "author": "Sudhir Pai",
+      "title": "Cybersecurity",
+      "label": [
+        {
+          "id": 1,
+          "name": "Cybersecurity"
+        }
+      ],
+      "text": "Almost every bid response, client conversations we end up answering questions around Cybersecurity, Information Security, and Data privacy areas.  With IoT, APIs and disruptive technologies like Blockchain focus on Cybersecurity is going to increase drastically.   At a group level we have Cybersecurity practice (launched a year ago), that provides three broad areas of coverage - cybersecurity consulting and audit services, security protection services and large scale security monitoring services. Each of these areas has set of offerings, partnerships and regional flavours.  IBM is launching Watson platform to cater to cybersecurity through cognitive computing of security data. We have seen huge investments from HP in this space. Singapore EDB provides additional benefits for hiring consultants to work on cybersecurity research projects. Whilst there are many definitions and classifications, basically they all cover cybersecurity through network, security ops, end points, apps, data and IDM areas. This is indeed a broad area and cuts horizontally across many of our offerings, Is it worth looking at it more holistically? I have bit more background on this subject happy to discuss and work on next steps…"
+    },
+    {
+      "id": 29,
+      "subcategory": "IoT",
+      "date": "14 May 2016",
+      "author": "Sudhir Pai",
+      "title": "Spire",
+      "label": [
+        {
+          "id": 1,
+          "name": "IoT"
+        }
+      ],
+      "text": "A wearable called Spire can help with stressful situations. It has been there in market for a while recently got good reviews and ratings. Concept is backed by over 7 years of research from Stanford University’s Calming Technology Lab, to understand state of mind. We can wear it inside our belt. https://www.spire.io/"
+    },
+    {
+      "id": 30,
+      "subcategory": "Ecosystems,Blockchain,Natural Languages ",
+      "date": "22 May 2016",
+      "author": "Sudhir Pai",
+      "title": "Jack Dugan visit in Australia ",
+      "label": [
+        {
+          "id": 1,
+          "name": "Ecosystems "
+        },
+        {
+          "id": 2,
+          "name": "Blockchain "
+        },
+        {
+          "id": 3,
+          "name": "Natural Languages  "
+        }
+      ],
+      "text": "This week, It was great to have Jack Dugan joining us for a few interesting meetings themed on ‘ecosystems’. We caught up with companies focus on AI and machine learning, Bitcoin-Blockchain, University research areas, and views from CXO advisor.  Key callouts: 1.       Buying patterns from clients is changing, increasingly focusing on ‘productivity’ and ‘predictability’ than only cost dimension. University professor gave couple of examples of how they measure productivity of the teams and apply some clear rules on day to day ways of working. E.g. every member of the team produces status report only if there is ‘a tangible outcome’ produced during the week, else status report will appear blank and builds peer pressure to produce something every week.  2.       Interesting to note advancements in machine learning and analytics. BigML provides Data science as a service in addition to software platform, backed up some of the top scientists. Digital Autopsy was another growth area, where the companies are looking at collecting and analysing data from birth to death, and use it for legal, research, educational purposes. 3.       Building sector (sub sector) specific solutions on blockchain appeared as next big bets. We saw an example of it for Freight management.  4.       Universities are continuing to research in Natural Language processing areas (NLP), eventually predicting there will be an NLP for a client with entire client specific transaction and vocabulary being considered. Similarly on customer experience side research continues on building profiles for each and every individual customer thereby targeting offerings mapped to lifecycle events.  Areas we picked up for potential next steps: 1.       Connecting BigML to broader community to understand the product and opportunities – Health, Insurance and BPO areas.  2.       Look at sub-sector specific blockchain solutions e.g. KYC, and have a unique R3 type positioning for that solution globally. Will connect with Nilesh and Bart. On a lighter note, new business models are continuously evolving across all verticals. Recently I observed an indoor playground appear very differently during weekend with lots of ‘inflatable games’ attracting 200+ kids, generating new source of revenue."
+    },
+    {
+      "id": 31,
+      "subcategory": "RPA,APIs,IoT",
+      "date": "27 May 2016",
+      "author": "Sudhir Pai",
+      "title": "Group CTO network meeting",
+      "label": [
+        {
+          "id": 1,
+          "name": "RPA "
+        },
+        {
+          "id": 2,
+          "name": "APIs "
+        },
+        {
+          "id": 3,
+          "name": "IoT "
+        }
+      ],
+      "text": "It was a great opportunity to spend time with group CTO network chaired by Lanny. A number of topics of interests were discussed, including some interesting external vendor presentations. Summary: 1.       Business Services: DEX (Delivery Excellence and Innovation) lab in Poland has built an impressive end to end (Define-Measure-Analyse-Improve-control) lean six sigma method towards continuous improvements.  Each phase has a tool like iPortal, PROMPT, iShare, tracking ideas to implementation. Standout is our ability to capture every min of ‘productivity’ of resources on the job.  • Takeaway: Worth having a look at productivity measures and applicability 2.       RPA: In the previous weeks there were email exchanges on this topic; Business Services team has really some good use cases and artefacts built.• Takeaway: Worth having a look at Zurich case study more closely. Whilst RPA from business services is specifically focusing on desktop automation at the moment, this can be extended to other processes and SDLC (IT operations) (ref: conversation with Pitchai and Ashish). RPA stream will have impact on headcount3.       My Workspace: IS team, in collaboration with Citrix has built a solution around ‘Digital employee’ experience. Similar to ACE, but the solution also provides support to new devices and channels (My Support). Futher, team is exploring a product called OctoBlue (now part of Citrix) that will bring in IoT integration as well. • Takeaway: We can look at Workspace and Digital employee conversation in IS deals as a differentiator?4.       Contract Compliance and Optimisation:  A platform has been built based on sirionlabs. This helps to bring in key contract data with finance data, delivery data to directly report out SLAs and constantly monitor progress. In most of the ADM engagements contract tracking is manual and can be cumbersome.   • Takeaway: We can look at one pilot engagement (first internally) to see the benefits. 5.       ODIGO: It’s interesting to see future roadmap of Odigo product both for customer care and service desk use cases. Odigo Suite will have lots of new features including NLP, Biometric, Sentiment analysis and open architecture platform supporting API (cloud communication and data analytics) based integration • Takeaway: Worth having a look at all new features and assess its implications in current and new engagements. On other note,1.       Please see attached blog by Rachael Stormonth from Nelson Hall “Capgemini Looks to U.S. for Makeover as it Prepares for 50th”, 2.       It’s worth having a closer look at KNIME, an analytics (open source) platform. This is a 20 member company that has captured leadership position in Gartner magic quadrant with some impressive client base and use cases.  (https://www.knime.org/)"
+    },
+    {
+      "id": 32,
+      "subcategory": "Disruption,Digital",
+      "date": "3 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Future of Bank branches",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption "
+        },
+        {
+          "id": 2,
+          "name": "Digital "
+        }
+      ],
+      "text": "On one side we have seen banks closing many of their traditional branches and on the other side showcasing their innovation and technology leadership by opening up new “Digital branch”, Future of banking branch”, “Model branch”.  It might be worthwhile for our teams to visit these new branches at various locations and have firsthand experience of it.  It can help us building confidence when we speak to clients, or during Orals where we can refer to such recent visits. A few common themes that I picked up from visits: •         More technology, less people. Fully sophisticated ATMs, smart machines…. •         Collaborative workspace and interactive dashboards…. •         Full loaded self service centres, access to all apps and product portfolios….•         Ecosystem: Few branches now have access to other Apps like Stock market, property market etc. trying to go beyond just their own product portfolios…. •         Education sessions: At some places we have the ability to join and listen (every 1-2 hours for 30mins) topics of consumers interest e.g. Superannuation…..I hear some of our competitors e.g. TCS has a bank-branch to showcase ‘day in a life’ scenario. Upon entry they will print a ‘card’ and use it to perform various transactions within the branch!!!! Some of other our competitors e.g. Deloitte are sponsoring small part of such a ‘Digital Future branch’ e.g. Twitter wall!!! ……Seems like brilliant ideas!!!Having said that there is a counter argument that banks are wasting too much money in building these ‘future bank branches’, and with over 66% of global population online by 2020 there might be more mobile and online only banks…..than such a need for digital technology flashy branches …"
+    },
+    {
+      "id": 33,
+      "subcategory": "New buzz words",
+      "date": "3 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Platforms! Platforms! And Platforms!",
+      "label": [
+        {
+          "id": 1,
+          "name": "New buzz words "
+        }
+      ],
+      "text": "A buzz we hear all the time. Means different to different people at different time. Maybe it’s time to expand our definitions around it. You might have seen recent article on HBR https://hbr.org/2016/04/pipelines-platforms-and-the-new-rules-of-strategy  in summary •          Owners of platform, controlling the IP e.g. iOS•         Providers like mobile devices built on these platforms•         Producers who creates offerings like Apps on platforms•         And Consumers or users of these offeringsConcept can be expanded to Enterprises like Banks and Insurers where corporate/central function owns the IP?, branch / geographies uses this platform to build localised versions of product /services, producers (or fintechs) can build Apps / APIs on them…..  Space to watch and explore…."
+    },
+    {
+      "id": 34,
+      "subcategory": "Natural Languages",
+      "date": "3 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Natural Languages",
+      "label": [
+        {
+          "id": 1,
+          "name": "Natural Languages"
+        }
+      ],
+      "text": "Last week again I saw quite a few new organisations focusing on Natural Language (NLP) based offerings, providing “Digital Self Assist” functions.  This area is definitely picking up. It suggests that in future all I have to do is ask “Alexa” or “Kora” or “Cortana” or “Siri” to help me to pick a topic that’s of interest for our business during the week or in a quarter….:)) "
+    },
+    {
+      "id": 35,
+      "subcategory": "Disruption,Mobility,Digital",
+      "date": "11 June 2016",
+      "author": "Sudhir Pai",
+      "title": "X3 device from HP",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption"
+        },
+        {
+          "id": 2,
+          "name": "Mobility"
+        },
+        {
+          "id": 3,
+          "name": "Digital"
+        }
+      ],
+      "text": "Very interesting development where HP claims to have combined PC’s power and productivity, tablet’s portability, and smartphone’s ease of use.  Couple of possibilities for us: o   We can look at is our “My Workspace” solution from IS practice and make it to operate on HP virtualisation platform, extend to HP devices /X3 (Digital for employees) o   Potential for us to partner in X3 rollouts"
+    },
+    {
+      "id": 36,
+      "subcategory": "Competitors ,Disruption ",
+      "date": "11 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Driving Innovation Internally",
+      "label": [
+        {
+          "id": 1,
+          "name": "Competitors "
+        },
+        {
+          "id": 2,
+          "name": "Disruption "
+        }
+      ],
+      "text": "Listening to our competitors, Accenture CTO provides a view on how they are driving innovation internally within their organisation. Four key steps (http://www.zdnet.com/article/cxotalk-technology-innovation-advice-from-accentures-cto/) o   Accenture research for thought leadership o   Accenture labs, 7 R&D labs  o   Accenture Ventures, invests in start-ups o   Accenture studios to ideate and co-create"
+    },
+    {
+      "id": 37,
+      "subcategory": "Disruption ",
+      "date": "11 June 2016",
+      "author": "Sudhir Pai",
+      "title": "Fourth Industrial Revolution",
+      "label": [
+        {
+          "id": 1,
+          "name": "Disruption "
+        }
+      ],
+      "text": "There are ongoing debates on impacts of fourth industrial revolution, opportunities and challenges. The article below sets the context nicely and might be helpful when we have strategic conversations with CXOs.  https://www.weforum.org/agenda/2016/01/the-fourth-industrial-revolution-what-it-means-and-how-to-respond/"
+    },
+    {
+      "id": 38,
       "subcategory": "AI, Natural Languages",
       "date": "17 June 2016",
       "author": "Sudhir Pai",
@@ -232,7 +636,7 @@
       "text": "Apples announced iOS10 at WWDC and as expected enhancements to ‘SIRI’ seems to be key, including opening up Siri for third party developers. General comments from the market is it lacks AI capabilities and Apple is still catching up. Looks like it’s time to have a POV on Natural Language Processing (NLP) interfaces."
     },
     {
-      "id": 15,
+      "id": 39,
       "subcategory": "Disruption",
       "date": "17 June 2016",
       "author": "Sudhir Pai",
@@ -246,7 +650,7 @@
       "text": "When we talk about disruptive business models, we refer to ‘Uber’, but not to forget OLA in India and Didi in China have gained significant market share and managed to raise billions of $ in competing with Uber as local favourites."
     },
     {
-      "id": 16,
+      "id": 40,
       "subcategory": "Digital, RPA, New buzz words",
       "date": "17 June 2016",
       "author": "Sudhir Pai",
