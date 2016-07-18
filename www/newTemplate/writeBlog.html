@@ -11,7 +11,7 @@
 
   <br>
     <label class="item item-input">
-                <textarea placeholder="Body" style="height: 150px; padding-left: 5px; padding-top:5px; padding-bottom: 3px; width:100%"></textarea>
+                <textarea placeholder="Body" style="height: 50px; padding-left: 5px; padding-top:5px; padding-bottom: 3px; width:100%"></textarea>
     </label>
     <br>
     <label class="item item-input">
@@ -23,16 +23,24 @@
         <div class="col text-right"> <button class="button button-positive"> Upload </button> </div>
     </div>
     <br>
-    <label class="item item-input item-select">
-       <select ng-repeat="category in categories.category">
-      <option>{{category.name}}</option> 
+    <div class="row">
+    <label style="padding-right:8px;padding-left:5px" >Category 
+    <select>
+    <!--  ng-model="categories" ng-change="showSelectValue(categories)"  --> 
+    <option ng-repeat="category in categories">{{category.name}}  </option>
     </select>
-  </label>
-  <br>
-  <div class="row"> 
-    <div class="list" ng-repeat="category in categories.category">
-        <p>{{category.name}}</p>
-  </div>
+
+    <!-- <select ng-option="catgory as category.name in categories" ng-model="categories" ng-change="showSelectValue(categories)">
+    </select> -->
+    </label>
+    </div>
+    <br>
+   
+
+  <label class="item item-input">
+                <input type="text" placeholder="List of subCategory Details selected" value={{selectedSubcategoryDetails}} >
+    </label>
+
   </div>
 
   <div class="row">  <div class="col text-right">

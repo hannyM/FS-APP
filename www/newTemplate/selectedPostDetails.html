@@ -1,4 +1,4 @@
-<div class="bar bar-subheader"> <img src="img/categories-icon.png" style="width:10% ;height:30px;" > <h3 style="width:29%;height:30px;margin-top:0px; "> Category </h3><h3 style="width:60%;height:30px; margin-top: 1px;"> hghj</h3>
+<div class="bar bar-subheader"> <img src="img/categories-icon.png" style="width:10% ;height:30px;" ><h4 style="width:100%;height:30px;" >{{title}} </h4>
 </div>   
 <ion-item has-header="true" has-subheader="true" style="background-size: 100% 100%; width:100%;height:100%; top:90px; padding-left:10px; padding-right:10px;">
               <!--   <div class="list" > -->
@@ -11,7 +11,7 @@
      
                <item type="item-text-wrap">
             <p> Title: {{postDetails.title}}</p>
-              <p> Sub Categories :   {{postDetails.name}} 
+              <p> Sub Categories :   <item ng-repeat="label in labels" type="item-text-wrap"> {{label.name}} 
                </span> </p>
                <span><p> Posted Date : {{postDetails.date}}</p> </span>
                  <p> Author: {{postDetails.author}}</p>

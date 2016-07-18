@@ -1,0 +1,39 @@
+<ion-view view-title="CTO blog – FS">
+  <ion-content>
+    <ion-list>
+    <ion-toggle ng-model="settings.enableFriends">
+        Profile
+    </ion-toggle>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+ <ion-item has-header="true" has-subheader="true" style="background-size: 100% 100%; width:100%;height:100%; top:90px;padding-left:10px; padding-right:10px;">
+             
+                      <label class="item item-input" style="padding:6px"> 
+                 			 <img ng-src="{{getUser.profilePic}}">  
+    </label>   
+            <br>
+                  <label class="item item-input" style="padding:5px">
+                 			<input type="text" value={{getUser.firstName}}>
+    </label>
+    <br>
+     <label class="item item-input" style="padding:7px">  
+                 			<input type="text" value= {{getUser.fullName}}>
+    </label>
+    <br>
+     <label class="item item-input" style="padding:6px"> 
+                 			<input type="text" value= {{getUser.location}}>
+    </label>
+    <br>
+      <label class="item item-text" style="padding:7px"> 
+                           <input type="password" value= {{getUser.password}} >
+    </label>
+
+
+    <div class="row">  <div class="col text-center">
+                    <button class="button button-positive" ng-click ="saveProfile(getUser)" >
+                      Save changes
+                    </button>
+
+                </ion-item>
