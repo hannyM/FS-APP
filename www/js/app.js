@@ -30,8 +30,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     // Set up the various states which the app can be in.
     // Each state's controller can be found in controllers.js
     $stateProvider
-
-        .state('signin', {
+ 
+    .state('signin', {
         url: '/sign-in',
         templateUrl: 'templates/login.html',
         controller: 'SignInCtrl'
@@ -197,6 +197,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
     })
 
+    .state('tab.updatedProfile', {
+        url: '/updateprofile',
+        views: {
+            'tab-profile': {
+                templateUrl: 'newTemplate/Profile/updateProfile.html',
+                controller: 'updatedProfileCtrl'
+            }
+        }
+    })
     .state('tab.notifications', {
         url: '/notifications',
         views: {
@@ -223,6 +232,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     $httpProvider.defaults.useXDomain = true;
     $httpProvider.defaults.headers.common = 'Content-Type: application/json';
     delete $httpProvider.defaults.headers.common['X-Requested-With'];
-
 
 });
