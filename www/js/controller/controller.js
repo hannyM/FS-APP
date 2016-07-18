@@ -71,6 +71,9 @@ angular.module('starter.controllers', ['starter.services'])
    var postDetails = ServiceCategory.getSubCategorySelectedPostDetails();
    $scope.postDetails = postDetails.category.post;
         console.log('postDetailsCtrl', $scope.postDetails);
+
+    $scope.title =  postDetails.category.post.title ;
+    $scope.labels =  postDetails.category.post.label ;
 })
 
 .controller('SignInCtrl', function($scope, $state) {
@@ -82,12 +85,33 @@ angular.module('starter.controllers', ['starter.services'])
 
 .controller('blogPostCtrl', function($scope, $state, $http,ServiceCategory) {
     ServiceCategory.getCategory().then(function(data) {
-             $scope.categories = data;
-            //  console.log($scope.subCategory);
-    }); 
+           $scope.categories = data.category;
+          console.log($scope.categories);    
+       $scope.showSelectValue($scope.categories);
+    });
+
+$scope.showSelectValue = function(categories) {
+        if ( categories === "What is trending ?") {
+            ServiceCategory.setUserSelectedCategory(categories);
+            $scope.selectedSubcategoryDetails =ServiceCategory.getUserSelectedCategory();
+        } else if ( categories === "Innovate to Disrupt") {
+            ServiceCategory.setUserSelectedCategory(categories);
+              $scope.selectedSubcategoryDetails = ServiceCategory.getUserSelectedCategory();
+        } else if (categories === "Group Catalyst") {
+            ServiceCategory.setUserSelectedCategory(categories);
+              $scope.selectedSubcategoryDetails =   ServiceCategory.getUserSelectedCategory();
+        } else if ( categories === "External Influences") {
+            ServiceCategory.setUserSelectedCategory(categories);
+             $scope.selectedSubcategoryDetails =  ServiceCategory.getUserSelectedCategory();
+        } else if ( categories === "CTO Community") {
+           ServiceCategory.setUserSelectedCategory(categories);
+             $scope.selectedSubcategoryDetails =    ServiceCategory.getUserSelectedCategory();
+        }
+    };
+
+    $scope.selectedSubcategoryDetails  = $scope.showSelectValue($scope.categories);
 
     $scope.publish = function() {
-      
         ServiceCategory.publishPost().then(function(data){
             console.log(data);
         })
@@ -186,7 +210,7 @@ angular.module('starter.controllers', ['starter.services'])
     
     ServiceCategory.getCategory().then (function(data) {
              $scope.categories =data;
-              console.log($scope.categories);
+         //console.log($scope.categories);
     }); 
         
     $scope.selectCategory = function(categories) {
@@ -222,16 +246,34 @@ angular.module('starter.controllers', ['starter.services'])
     };
 })
 
-.controller('ProfileCtrl', function($scope,Details) {
+.controller('ProfileCtrl', function($scope,Details,$state) {
     $scope.settings = {
         enableFriends: true
     };
     
     $scope.getUser = Details.getUser();
-    //console.log('ProfileCtrl', $scope.getUsers);
 
+
+    $scope.update = function(userDetails) {
+        console.log("update",userDetails);
+        $state.go('tab.updatedProfile');
+    }
 })
 
+
+.controller('updatedProfileCtrl', function($scope,Details,$state) {
+    $scope.settings = {
+        enableFriends: true
+    };
+    
+    $scope.getUser = Details.getUser();
+
+    $scope.saveProfile = function(userDetails) {
+        console.log("saveProfile",userDetails);
+        Details.updateUserDetails(userDetails);
+        $state.go('tab.profile');
+    }
+})
 .controller('NotificationsCtrl', function($scope,Notifications) {
     $scope.settings = {
         enableFriends: true
