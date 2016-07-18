@@ -149,7 +149,6 @@ angular.module('starter.services', [])
         getSubCategoryDetails: getSubCategoryDetails,
         getSubCategorySelectedPostDetails: getSubCategorySelectedPostDetails,
         setSubCategorySelectedPostDetails: setSubCategorySelectedPostDetails,
-        
         getSubCategoryPostDetails: getSubCategoryPostDetails,
 
         publishPost:publishPost
@@ -211,18 +210,26 @@ angular.module('starter.services', [])
     var notifications = [{
         id: 0,
         name: 'Sudhir Pai',
-        lastText: 'Melbourne, Australia',
-        face: 'img/adam.png'
+        location : 'Melbourne, Australia',
+        face: 'img/adam.png',
+        lastPost :'Digital Delivery Platform',
+        content: 'Fintechs’ action is everywhere and both banks ......'
+
     }, {
         id: 1,
         name: 'Willem Veelenturf',
-        lastText: 'Utrecht, Netherlands',
-        face: 'img/ben.png'
+        location: 'Utrecht, Netherlands',
+        face: 'img/ben.png',
+        lastPost :'Fintechs’ Action',
+         content: 'Fintechs’ action is everywhere and both banks ......'
+
     }, {
         id: 2,
         name: 'Bahar Khodabakhshi',
-        lastText: 'Melbourne, Australia',
-        face: 'img/max.png'
+        location: 'Melbourne, Australia',
+        face: 'img/max.png',
+        lastPost :'Connected Insurance',
+        content: 'Fintechs’ action is everywhere and both banks ......'
     }];
 
     return {
@@ -242,15 +249,22 @@ angular.module('starter.services', [])
         lastName : 'Pai',
         firstName :' Sudhir',
         profilePic : 'img/adam.png',
-        location: 'Melbourne, Australia'
+        location: 'Melbourne, Australia',
+        password:'1234'
     };
 
     function getUser() {
-        console.log(userDetails)
         return userDetails;
+    }   
+
+    function updateUserDetails (user){
+        userDetails = user;
+        getUser();
+        console.log("jkgkjgkj",user)
     }
 
     return {
-        getUser: getUser
+        getUser: getUser,
+        updateUserDetails :updateUserDetails
     };
 });
