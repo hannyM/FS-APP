@@ -1,7 +1,7 @@
 <ion-view view-title="CTO blog – FS">
   <ion-content class="padding">
     <ion-list>
-
+	
       <div ng-repeat="group in groups">
         <ion-item class="item-avatar item-icon-right" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
           <img ng-src="{{group.iconURL}}">
@@ -35,6 +35,7 @@
     </ion-list>
       
       <ion-list>
+	  
         <div>
           <ion-item class="item-stable"
                     ng-click="toggleGroup(group)"
@@ -108,5 +109,7 @@
           </ion-item>
         </div>
       </ion-list>
+	
+	
   </ion-content>
 </ion-view>

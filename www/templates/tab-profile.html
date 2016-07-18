@@ -14,7 +14,7 @@
                  			  <img ng-src="{{getUser.profilePic}}">  
     </label>   
           
-                  <label class="item item-input" style="padding:7px"> Firstname : 
+                  <label class="item item-input" style="padding:7px"> FirstName : 
                  			{{getUser.firstName}}
     </label>
     <br>
@@ -28,7 +28,7 @@
     <br>
 
     <div class="row">  <div class="col text-right">
-                    <button class="button button-positive" >
+                    <button class="button button-positive" ng-click ="update(getUser)" >
                       Update
                     </button>
 
